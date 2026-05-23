@@ -1,0 +1,21 @@
+{
+	"criteria":{
+		"requirement":{
+			"trigger":"minecraft:consume_item",
+			"conditions":{
+				"player":{
+					"type":"minecraft:player",
+					"nbt": "{Tags:[\"ghoul\",\"unhunger\"]}"
+				},
+				"item":{
+					"items":[
+						"minecraft:rotten_flesh"
+					]
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"msv:core/ghoul_rotten_flesh_eat"
+	}
+}
