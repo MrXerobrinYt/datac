@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "proc fabric",
+    "pattern": [
+        " # ",
+        "SWS",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:slime_ball"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "minecraft:white_wool",
+			"data":{
+				"deny":{
+					"tag":["proccesedwool"]
+				}
+			}
+        }
+    },
+    "result": {
+        "item": "minecraft:white_wool",
+		"data":{
+			"tag":["proccesedwool"],
+			"display":{
+				"Name":{
+					"text":"Обработанная шерсть",
+					"italic":false,
+					"color":"aqua",
+					"nbtcrafting:stringify":true
+				}
+			},
+			"Enchantments":[
+				{
+					"id":"minecraft:mending",
+					"lvl":1
+				}
+			],
+			"HideFlags":1
+		}
+    }
+}

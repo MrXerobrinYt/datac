@@ -1,0 +1,60 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base":{
+		"item":"minecraft:splash_potion",
+		"data":{
+				"display":{
+					"Lore":[
+						[
+							{"text":"Это выглядит противно. И... "},
+							{"text":"Опасно.","color":"dark_green","bold":true},
+							"nbtcrafting:stringify"
+						]
+					],
+					"Name":[
+						{"text":"Бутылочка инфекционной слизи","italic":false,"color":"dark_green"},
+						"nbtcrafting:stringify"
+					]
+				},
+				"CustomPotionEffects":[
+					{
+						"Id":26,
+						"Duration":200,
+						"Amplifier":6
+					}
+				],
+				"CustomPotionColor":65280,
+				"HideFlags":32
+		}
+	},
+    "ingredient":{
+		"item": "minecraft:dragon_breath"
+    },
+    "result":{
+		"item":"minecraft:lingering_potion",
+		"data":{
+			"display":{
+				"Lore":[
+					[
+						{"text":"Это выглядит противно. И... "},
+						{"text":"Опасно.","color":"dark_green","bold":true},
+						"nbtcrafting:stringify"
+					]
+				],
+				"Name":[
+					{"text":"Бутылочка инфекционной слизи","italic":false,"color":"dark_green"},
+					"nbtcrafting:stringify"
+				]
+			},
+			"CustomPotionEffects":[
+				{
+					"Id":26,
+					"Duration":200,
+					"Amplifier":6
+				}
+			],
+			"CustomPotionColor":65280,
+			"HideFlags":32
+		}
+	}
+}

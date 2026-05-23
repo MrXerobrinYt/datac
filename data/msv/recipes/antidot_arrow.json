@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "APA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:arrow"
+        },
+        "P": {
+            "item": "minecraft:lingering_potion",
+			"data":{
+				"CustomPotionColor":16747290,
+				"display":{
+					"Name":[
+						{"text":"Панацея","italic":false,"color":"#ffb934"},
+						"nbtcrafting:stringify"
+					],
+					"Lore":[
+						{
+							"text":"Янтарная жидкость едва светится и вселяет надежду",
+							"nbtcrafting:stringify":true
+						}
+					]
+				},
+				"CustomPotionEffects":[
+					{
+						"Id":27,
+						"Duration":200,
+						"Amplifier":6
+					}
+				],
+				"HideFlags":32
+			}
+        }
+    },
+    "result": {
+        "item": "minecraft:tipped_arrow",
+		"count":8,
+		"data":{
+			"CustomPotionColor":15583746,
+			"display":{
+				"Name":[
+					{"text":"Обработанная панацеей стрела","italic":false,"color":"#ffb934"},
+					"nbtcrafting:stringify"
+				],
+				"Lore":[
+					[
+						{"text":"Наконечник стрелы обволакивает вязкая янтарная жидкость "},
+						"nbtcrafting:stringify"
+					]
+				]
+			},
+			"CustomPotionEffects":[
+				{
+					"Id":27,
+					"Duration":200,
+					"Amplifier":7
+				}
+			],
+			"HideFlags":32
+		}
+	}
+}

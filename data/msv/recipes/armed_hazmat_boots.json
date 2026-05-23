@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iBi",
+        "I I"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:leather_boots",
+			"data":{
+				"tag":["hazmat"],
+				"display":{
+					"Lore":[
+						{
+							"text":"Бонус сета: Защита от вируса",
+							"italic":false,
+							"color":"gray",
+							"nbtcrafting:stringify":true
+						}
+					]
+				},
+				"CustomModelData":52678
+			}
+        },
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"i": {
+			"item": "minecraft:iron_nugget"
+		}
+    },
+    "result": {
+        "item": "minecraft:leather_boots",
+		"data":{
+			"tag":["hazmat","armed"],
+			"Enchantments":"$ i1.Enchantments",
+			"display":{
+				"Name":{
+					"text":"Укреплённые ботинки костюма биозащиты",
+					"italic":false,
+					"color":"aqua",
+					"nbtcrafting:stringify":true
+				},
+				"Lore":[
+					{
+						"text":"Бонус сета: Защита от вируса и стрел",
+						"italic":false,
+						"color":"gray",
+						"nbtcrafting:stringify":true
+					}
+				],
+				"color":"$ i1.display.color"
+			},
+			"CustomModelData":52678
+		}
+    }
+}

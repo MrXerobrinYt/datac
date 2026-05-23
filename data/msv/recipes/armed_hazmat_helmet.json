@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iHi",
+		"ITI"
+    ],
+    "key": {
+        "H": {
+            "item": "minecraft:leather_helmet",
+			"data":{
+				"tag":["hazmat"],
+				"display":{
+					"Lore":[
+						{
+						"text":"Бонус сета: Защита от вируса",
+							"italic":false,
+							"color":"gray",
+							"nbtcrafting:stringify":true
+						}
+					]
+				},
+				"CustomModelData":21345
+			}
+        },
+        "T": {
+            "item": "minecraft:tinted_glass"
+        },
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"i": {
+			"item": "minecraft:iron_nugget"
+		}
+    },
+    "result": {
+        "item": "minecraft:leather_helmet",
+		"data":{
+			"tag":["hazmat","armed"],
+			"Enchantments":"$ i4.Enchantments",
+			"display":{
+				"Name":{
+					"text":"Укреплённая маска костюма биозащиты",
+					"italic":false,
+					"color":"aqua",
+					"nbtcrafting:stringify":true
+				},
+				"Lore":[
+					{
+						"text":"Бонус сета: Защита от вируса и стрел",
+						"italic":false,
+						"color":"gray",
+						"nbtcrafting:stringify":true
+					}
+				],
+				"color":"$ i4.display.color"
+			},
+			"CustomModelData":21345
+		}
+    }
+}

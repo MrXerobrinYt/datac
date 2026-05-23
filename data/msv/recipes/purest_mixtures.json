@@ -1,0 +1,83 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bowl"
+        },
+        {
+            "item": "minecraft:fermented_spider_eye"
+        },
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+        {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        {
+            "item": "minecraft:dragon_breath"
+        },
+        {
+            "item": "minecraft:snowball"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:fire_charge"
+        },
+        {
+            "item":"minecraft:potion",
+			"remainder":{"item":"minecraft:glass_bottle"},
+            "data":{
+                "CustomPotionColor":0,
+                "HideFlags":32,
+                "display":{
+                    "Name":[
+                        {"text":"Бутылочка чёрной слизи","italic":false,"color":"#383838"},
+                        "nbtcrafting:stringify"
+                    ],
+                    "Lore":[
+                            [
+                                {"text":"... "},
+                                "nbtcrafting:stringify"
+                            ]
+                        ]
+                    },
+                "CustomPotionEffects":[
+                    {
+                        "Id":26,
+                        "Duration":200,
+                        "Amplifier":8
+                    }
+                ]
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:rabbit_stew",
+        "data":{
+            "Tags":["cure"],
+            "display":{
+                "Name":{
+                    "text":"Чистейшая смесь",
+                    "italic":false,
+                    "color":"gold",
+                    "nbtcrafting:stringify":true
+                },
+				"Lore":[
+					[
+						{"text":"Вылечивает навсегда"},
+						"nbtcrafting:stringify"
+					]
+				]
+            },
+            "Enchantments":[
+                {
+                    "id":"minecraft:mending",
+                    "lvl":1
+                }
+            ],
+            "HideFlags":1
+        }
+    }
+}

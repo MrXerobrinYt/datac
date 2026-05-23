@@ -1,0 +1,59 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base":{
+		"item": "minecraft:potion",
+		"data":{
+			"Potion":"minecraft:awkward"
+		}
+	},
+    "ingredient":{
+		"item": "minecraft:suspicious_stew",
+		"remainder": { "item": "minecraft:bowl" },
+		"data":{
+			"display":{
+				"Name":[
+					{"text":"Странная жижа","color":"gold","italic":"false"},
+					"nbtcrafting:stringify"
+				],
+				"Lore":[
+					[
+						{"text":"Выглядит ","italic":"false"},{"text":"недоваренно","color":"gold","bold":"true","italic":"true"},
+						"nbtcrafting:stringify"
+					]
+				]
+			},
+			"Effects":[
+				{
+					"EffectDuration":2000,
+					"EffectId":10
+				}
+			]
+		}
+    },
+    "result":{
+		"item":"minecraft:potion",
+		"data":{
+			"CustomPotionColor":16747290,
+			"display":{
+				"Name":[
+					{"text":"Панацея","italic":false,"color":"#ffb934"},
+					"nbtcrafting:stringify"
+				],
+				"Lore":[
+					{
+						"text":"Янтарная жидкость едва светится и вселяет надежду",
+						"nbtcrafting:stringify":true
+					}
+				]
+			},
+			"CustomPotionEffects":[
+				{
+					"Id":27,
+					"Duration":200,
+					"Amplifier":5
+				}
+			],
+			"HideFlags":32
+		}
+	}
+}

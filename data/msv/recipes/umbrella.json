@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#I#",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:white_wool",
+            "data":{
+                "tag":["proccesedwool"],
+                "display":{
+                    "Name":{
+                        "text":"Обработанная шерсть",
+                        "italic":false,
+                        "color":"aqua",
+                        "nbtcrafting:stringify":true
+                    }
+                },
+                "Enchantments":[
+                    {
+                        "id":"minecraft:mending",
+                        "lvl":1
+                    }
+                ],
+                "HideFlags":1
+            }
+        },          
+        "I": {
+            "item": "minecraft:iron_nugget"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+        },
+    "result": {
+        "item": "minecraft:shield",
+        "data":{
+            "Tags":["umbrella"],
+            "display":{
+                "Name":{
+                "text":"Зонт",
+                "italic":false,
+                "nbtcrafting:stringify":true
+                }
+            }
+        }
+    }
+}

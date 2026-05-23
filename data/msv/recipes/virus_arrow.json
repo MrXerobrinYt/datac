@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "APA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:arrow"
+        },
+        "P": {
+            "item": "minecraft:lingering_potion",
+			"data":{
+				"display":{
+					"Lore":[
+						[
+							{"text":"Это выглядит противно. И... "},
+							{"text":"Опасно.","color":"dark_green","bold":true},
+							"nbtcrafting:stringify"
+						]
+					],
+					"Name":[
+						{"text":"Бутылочка инфекционной слизи","italic":false,"color":"dark_green"},
+						"nbtcrafting:stringify"
+					]
+				},
+				"CustomPotionEffects":[
+					{
+						"Id":26,
+						"Duration":200,
+						"Amplifier":6
+					}
+				],
+				"CustomPotionColor":65280,
+				"HideFlags":32
+			}
+        }
+    },
+    "result": {
+        "item": "minecraft:tipped_arrow",
+		"count":8,
+		"data":{
+			"display":{
+				"Lore":[
+					[
+						{"text":"Это выглядит противно. И... "},
+						{"text":"Опасно.","color":"dark_green","bold":true},
+						"nbtcrafting:stringify"
+					]
+				],
+				"Name":[
+					{"text":"Обработанная инфекционной слизью стрела","italic":false,"color":"dark_green"},
+					"nbtcrafting:stringify"
+				]
+			},
+			"CustomPotionEffects":[
+				{
+					"Id":26,
+					"Duration":200,
+					"Amplifier":7
+				}
+			],
+			"CustomPotionColor":65280,
+			"HideFlags":32
+		}
+	}
+}

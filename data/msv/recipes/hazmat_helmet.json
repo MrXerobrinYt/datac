@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WBW",
+        "WGW",
+		"WCW"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:leather_helmet",
+			"data":{
+				"deny":{
+					"tag":["hazmat"]
+				}
+			}
+        },
+        "W": {
+            "item": "minecraft:white_wool",
+			"data":{
+				"tag":["proccesedwool"],
+				"display":{
+					"Name":{
+						"text":"Обработанная шерсть",
+						"italic":false,
+						"color":"aqua",
+						"nbtcrafting:stringify":true
+					}
+				},
+				"Enchantments":[
+					{
+						"id":"minecraft:mending",
+						"lvl":1
+					}
+				],
+				"HideFlags":1
+			}
+        },
+		"G": {
+			"item": "minecraft:glass_pane"
+		},
+		"C": {
+			"item": "minecraft:charcoal"
+		}
+    },
+    "result": {
+        "item": "minecraft:leather_helmet",
+		"data":{
+			"tag":["hazmat"],
+			"display":{
+				"Name":{
+					"text":"Маска костюма биозащиты",
+					"italic":false,
+					"color":"aqua",
+					"nbtcrafting:stringify":true
+				},
+				"Lore":[
+					{
+						"text":"Бонус сета: Защита от вируса",
+						"italic":false,
+						"color":"gray",
+						"nbtcrafting:stringify":true
+					}
+				],
+				"color":"$ i1.display.color"
+			},
+			"CustomModelData":21345
+		}
+    }
+}
