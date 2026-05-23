@@ -1,0 +1,3 @@
+clear @s minecraft:tipped_arrow{CustomPotionEffects:[{Id:27,Duration:200,Amplifier:6b}]} 1
+clear @s minecraft:tipped_arrow{CustomPotionEffects:[{Id:27,Duration:200,Amplifier:7b}]} 1
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:tipped_arrow",Count:1,tag:{CustomPotionColor:15583746,display:{Name:'[{"text":"Обработанная панацеей стрела","italic":false,"color":"#ffb934"}]',Lore:['[{"text":"Наконечник стрелы обволакивает вязкая янтарная жидкость "}]']},CustomPotionEffects:[{Id:27,Duration:200,Amplifier:7}],HideFlags:32}}}

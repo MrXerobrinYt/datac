@@ -1,0 +1,3 @@
+clear @s minecraft:tipped_arrow{CustomPotionEffects:[{Id:26,Duration:200,Amplifier:6b}]} 1
+clear @s minecraft:tipped_arrow{CustomPotionEffects:[{Id:26,Duration:200,Amplifier:7b}]} 1
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:tipped_arrow",Count:1,tag:{display:{Lore:['[{"text":"Это выглядит противно. И... "},{"text":"Опасно.","color":"dark_green","bold":true}]'],Name:'[{"text":"Обработанная инфекционной слизью стрела","italic":false,"color":"dark_green"}]'},CustomPotionEffects:[{Id:26,Duration:200,Amplifier:7}],CustomPotionColor:65280,HideFlags:32}}}
