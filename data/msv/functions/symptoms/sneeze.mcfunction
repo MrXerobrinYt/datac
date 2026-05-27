@@ -1,3 +1,0 @@
-execute at @s[tag=!bottle] run particle sneeze ~ ~1 ~ 0 0 0 0 1
-execute if entity @s[tag=stage4] run scoreboard players operation @a[tag=!fixed,tag=!VirusImmunitet,tag=!infected,tag=!Immunitet,tag=!inHazmat,distance=..4] Risk += RiskFromSneeze config
-execute at @s[tag=bottle] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1,tag:{CustomPotionColor:65280,"HideFlags":32,display:{Name:'[{"text":"Бутылочка инфекционной слизи","italic":false,"color":"dark_green"}]',Lore:['[{"text":"Это выглядит противно. И... "},{"text":"Опасно.","color":"dark_green","bold":true}]']},CustomPotionEffects:[{Id:26,Duration:200,Amplifier:5b}]}}}

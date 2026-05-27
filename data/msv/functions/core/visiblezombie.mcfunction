@@ -1,1 +1,0 @@
-data merge entity @e[tag=infectedzombie,limit=1] {NoAI:0b,Invisible:0b}

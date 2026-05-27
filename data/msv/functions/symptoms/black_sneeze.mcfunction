@@ -1,2 +1,0 @@
-execute at @s[tag=!bottle] run summon minecraft:area_effect_cloud ^ ^1.8 ^2 {RadiusOnUse:-1,Particle:"minecraft:squid_ink",Duration:200,Radius:0.25f,Effects:[{ShowIcon:0b,ShowParticles:0b,Id:26,Duration:200,Amplifier:9b}]}
-execute at @s[tag=bottle] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1,tag:{CustomPotionColor:0,"HideFlags":32,display:{Name:'[{"text":"Бутылочка чёрной слизи","italic":false,"color":"#383838"}]',Lore:['[{"text":"... "}]']},CustomPotionEffects:[{Id:26,Duration:200,Amplifier:8b}]}}}
