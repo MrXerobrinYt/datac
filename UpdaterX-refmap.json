@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "me/gru2303/updaterx/mixin/LoadingOverlayMixin": {
+      "<init>": "Lnet/minecraft/class_425;<init>(Lnet/minecraft/class_310;Lnet/minecraft/class_4011;Ljava/util/function/Consumer;Z)V",
+      "registerTextures": "Lnet/minecraft/class_425;method_18819(Lnet/minecraft/class_310;)V",
+      "render": "Lnet/minecraft/class_425;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "me/gru2303/updaterx/mixin/MinecraftMixin": {
+      "onGameLoadFinished": "Lnet/minecraft/class_310;method_51736(Lnet/minecraft/class_310$class_8764;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/gru2303/updaterx/mixin/LoadingOverlayMixin": {
+        "<init>": "Lnet/minecraft/class_425;<init>(Lnet/minecraft/class_310;Lnet/minecraft/class_4011;Ljava/util/function/Consumer;Z)V",
+        "registerTextures": "Lnet/minecraft/class_425;method_18819(Lnet/minecraft/class_310;)V",
+        "render": "Lnet/minecraft/class_425;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
+      "me/gru2303/updaterx/mixin/MinecraftMixin": {
+        "onGameLoadFinished": "Lnet/minecraft/class_310;method_51736(Lnet/minecraft/class_310$class_8764;)V"
+      }
+    }
+  }
+}

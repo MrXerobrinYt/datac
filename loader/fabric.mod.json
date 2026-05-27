@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "updaterx-loader",
+	"name": "UpdaterX-Loader",
+	"description": "UpdaterX-Loader",
+	"authors": ["Gru2303"],
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.4",
+		"updaterx": "*"
+	}
+}

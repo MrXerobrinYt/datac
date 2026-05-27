@@ -1,0 +1,23 @@
+{
+	"gui.updaterx.server.connection": "Подключение к серверу...",
+	"gui.updaterx.server.connection.failed": "Не удалось подключиться к серверу",
+
+	"gui.updaterx.modifications.update": "Обновление модификаций: %1$s%%",
+	"gui.updaterx.modifications.error.hash.verification": "Не удалось проверить хэш модификации",
+	"gui.updaterx.modifications.error.jar.verification": "Не удалось проверить jar-файл модификации",
+	"gui.updaterx.modifications.error.loader.build": "Не удалось собрать загрузчик модов",
+
+	"gui.updaterx.resourcepacks.update": "Обновление ресурспака: %1$s%%",
+	"gui.updaterx.resourcepacks.error.hash.verification": "Не удалось проверить хэш ресурспака",
+	"gui.updaterx.resourcepacks.error.zip.verification": "Не удалось проверить zip-файл ресурспака",
+
+	"gui.updaterx.libraries.update": "Обновление библиотек: %1$s%%",
+	"gui.updaterx.libraries.error.hash.verification": "Не удалось проверить хэш библиотеки",
+	"gui.updaterx.libraries.error.zip.verification": "Не удалось проверить zip-файл библиотеки",
+
+	"gui.updaterx.result.ready": "Запуск Minecraft",
+
+	"gui.updaterx.result.reload.resource": "Подготовка к перезагрузке ресурспака",
+
+	"gui.updaterx.result.restart": "Нужен перезапуск лаунчера. Закрываем..."
+}

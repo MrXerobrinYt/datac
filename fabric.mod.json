@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "updaterx",
+  "version": "4.0.0",
+  "name": "UpdaterX",
+  "description": "UpdaterX - Auto modification updater for RPM RolePlay",
+  "authors": [
+    "Gru2303"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Gru2303"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/updaterx/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "UPX.GBUPX​​​​​​​​​​.GBUPX‌​​​​​​​​​.GBUPX‍​​​​​​​​​.GBUPX‏‍​​​​​​​​"
+    ]
+  },
+  "mixins": [
+    "upx.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.17.2",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/GGUI-0.1.0-remap.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-api-0.97.3+1.20.4.jar"
+    }
+  ]
+}
